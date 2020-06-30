@@ -1,0 +1,152 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+
+body{
+    font-size:13px;
+    font-family: "Trebuchet MS",Arial,Helvetica,sans-serif;
+    color:#444;
+    background-color:#B17E4F;
+}
+a{
+    text-decoration:none;
+    color:#96AE3E;
+}
+ul{
+    list-style:none;
+}
+
+.fix{
+    width:960px;
+    margin:0 auto;
+    padding-bottom:40px;
+    overflow:hidden;
+}
+.main{
+    width:100%;
+    background:#fff;
+    overflow:hidden;
+}   
+.content{width:928px;
+    margin:0 auto;
+    padding:15px}
+
+
+
+
+/*---------- header---------- */
+
+header{
+    width: 960px;
+    margin: 0 auto;
+    color:white;
+    padding: 0;
+}
+.title{
+    float:left;
+    padding: 60px 0 10px 30px;
+}
+.logo{
+    margin: 0;
+}
+.title a{
+    font-size: 44px;
+    margin: 0;
+    color: #fff;
+    text-decoration: none;
+}
+.site{
+    float:right;
+    padding: 80px 30px 0 0;
+    margin: 0;
+}
+.site p{
+    margin:0;
+    color: #c1a9a4;
+}
+nav ul{
+    display:flex;
+    text-align:center;
+    margin-bottom:15px;
+}
+nav ul li{
+    flex:auto;
+}
+nav ul li a{
+    display:block;
+    width:100%;
+    background:#000;
+    color:#fff;
+    text-transform:uppercase;
+    padding:20px 0;
+}
+nav ul li a:hover, nav ul li .active {
+    background:#1B3039;
+}
+img{
+    width:100%;
+    height:100%;
+}
+main{
+    float:left;
+    width:570px;
+    padding:0 0 10px 15px;
+}
+main h3{
+    font-size:3em;
+    text-transform:lowercase;
+}
+main h3 a{
+    color:#9F6841
+}
+main .description{
+    padding-bottom:30px;
+}
+main p{
+    padding-bottom:30px;
+    line-height:2;
+}
+.sidebar{float:right;
+    width:300px;
+    padding-bottom:20px;
+    padding-top:20px;
+}
+aside{
+    margin-bottom:20px;
+    padding:7px;
+    background:#EFEDE5;
+    border:1px solid #E8E6DE;
+}
+aside h4{
+    padding-left:15px;
+    font-size:1.5em;
+    line-height:2em;
+    color:#FFF;
+    background:#5D9EBD;
+    border:1px solid #5692AE;
+}
+aside ul{
+    padding:1em 0;
+}
+aside ul li{
+    padding-left:15px;
+    line-height:2.5em;
+    border-bottom:1px solid #E8E6DE;
+}
+aside p{
+    padding:20px 15px;
+    line-height:2;
+}
+footer{text-align:center;
+    padding:30px 15px;
+    background:#fff;
+}
+footer p{
+    background:#D1E4A7;
+    padding:30px 15px;
+}
+.clearfix{
+    clear: both;
+}
